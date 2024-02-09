@@ -67,8 +67,10 @@ img{
 }
 
 .nav-bar{
-    width: 50%;
-
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-btn,.cancel_button{
@@ -99,8 +101,8 @@ img{
 }
 
 .request-btn {
-    width: 25%;
-    text-align: right;
+margin-left: auto;
+  
 }
 .request-btn a{
     color: #fff;
@@ -179,6 +181,10 @@ img{
     .request-btn a{
         padding: 12px 20px;
         border-radius: 7px;
+    }
+    .heading-banner p {
+        padding: 15px 0 20px 0;
+        text-align: center;
     }
 }
 
@@ -278,7 +284,7 @@ img{
 }
 @media only screen and (max-width:768px){
     .heading-banner h1{
-        font-size: 36px;
+        font-size: 30px;
         
     }
     .request-btn {
@@ -299,7 +305,7 @@ img{
 
 @media only screen and (max-width:479px){
     .heading-banner h1{
-        font-size: 30px;
+        font-size: 24px;
         
     }
     .heading-banner{
@@ -371,6 +377,9 @@ img{
     .heading-all h2{
         font-size: 28px;
     
+    }
+    .heading-banner p {
+        padding: 10px 0 15px 0;
     }
 }
 
@@ -636,7 +645,7 @@ procss-top-end */
 @media only screen and (max-width:575px)
 {
     .item-right h2{
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
