@@ -1,7 +1,14 @@
-jQuery(document).ready(function(){
-    
+jQuery(document).ready(function($){
 
-    AOS.init();
+$('.menu-btn').click(function(){
+    $('.nav-wrapper').addClass('open-menu');
+})
+
+$('.cancel_button').click(function(){
+    $('.nav-wrapper').removeClass('open-menu');
+})
+AOS.init();
+
 })
 
 
